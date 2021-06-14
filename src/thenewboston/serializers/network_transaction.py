@@ -1,7 +1,6 @@
 import re
 
 from rest_framework import serializers
-
 from thenewboston.constants.network import (
     ACCEPTED_FEE_LIST,
     MAX_POINT_VALUE,

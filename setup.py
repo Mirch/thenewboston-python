@@ -16,7 +16,7 @@ setup(
     install_requires=requirements,
     long_description=long_description,
     long_description_content_type='text/markdown',
-    name='thenewboston',
+    name='thenewboston-ml-dev',
     packages=find_packages(
         exclude=['tests', 'tests.*']
     ),

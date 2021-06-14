@@ -12,16 +12,14 @@
 #
 import os
 import sys
-import django
-sys.path.insert(0, os.path.abspath('../../src/'))
 
+sys.path.insert(0, os.path.abspath('../../src/'))
 
 # -- Project information -----------------------------------------------------
 
 project = 'thenewboston-python'
 copyright = '2020, Bucky Roberts'
 author = 'Bucky Roberts'
-
 
 # -- General configuration ---------------------------------------------------
 
@@ -37,7 +35,6 @@ templates_path = ['_templates']
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = []
-
 
 # -- Options for HTML output -------------------------------------------------
 

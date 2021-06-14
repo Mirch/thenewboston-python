@@ -2,7 +2,6 @@ from os import path
 
 from nacl.encoding import HexEncoder
 from nacl.signing import SigningKey
-
 from thenewboston.accounts.manage import create_account
 
 

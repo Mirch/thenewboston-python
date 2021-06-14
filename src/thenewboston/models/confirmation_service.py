@@ -1,7 +1,6 @@
 from uuid import uuid4
 
 from django.db import models
-
 from thenewboston.models.created_modified import CreatedModified
 
 

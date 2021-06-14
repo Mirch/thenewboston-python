@@ -6,16 +6,17 @@
 
 Python library for thenewboston digital currency.
 
-This library contains all of the core logic, shared functionality, and
-constants used by both the [Bank](https://github.com/thenewboston-developers/Bank) and 
+This library contains all of the core logic, shared functionality, and constants used by both
+the [Bank](https://github.com/thenewboston-developers/Bank) and
 [Validator](https://github.com/thenewboston-developers/Validator) on thenewboston network.
 
 ## Project Setup
 
-Follow the steps below to set up the project on your environment. If you run into any problems, feel free to leave a 
+Follow the steps below to set up the project on your environment. If you run into any problems, feel free to leave a
 GitHub Issue or reach out to any of our communities above.
 
 Install required packages:
+
 ```
 pip3 install -e .
 ```
@@ -23,16 +24,19 @@ pip3 install -e .
 ## Testing
 
 To run tests:
+
 ```
 pytest
 ```
 
 To run tests with coverage report:
+
 ```
 pytest --cov-config=.coveragerc --cov=./src 
 ```
 
 To run linting:
+
 ```
 flake8 .
 ```
@@ -44,13 +48,15 @@ The building and publishing of this package is automated through GitHub actions.
 branch is merged into `master`.
 
 To produce a source distribution manually:
+
 ```
 python3 setup.py sdist
 ```
 
 ## Community
 
-Join the community to stay updated on the most recent developments, project roadmaps, and random discussions about completely unrelated topics.
+Join the community to stay updated on the most recent developments, project roadmaps, and random discussions about
+completely unrelated topics.
 
 - [thenewboston.com](https://thenewboston.com/)
 - [Discord](https://discord.gg/thenewboston)
@@ -66,11 +72,13 @@ Join the community to stay updated on the most recent developments, project road
 
 All donations will go to thenewboston to help fund the team to continue to develop the community and create new content.
 
-| Coin | Address |
-|-|-|
-| ![thenewboston Logo](https://github.com/thenewboston-developers/Website/raw/development/src/assets/images/thenewboston.png) | b6e21072b6ba2eae6f78bc3ade17f6a561fa4582d5494a5120617f2027d38797 |
-| ![Bitcoin Logo](https://github.com/thenewboston-developers/Website/raw/development/src/assets/images/bitcoin.png) | 3GZYi3w3BXQfyb868K2phHjrS4i8LooaHh |
-| ![Ethereum Logo](https://github.com/thenewboston-developers/Website/raw/development/src/assets/images/ethereum.png) | 0x0E38e2a838F0B20872E5Ff55c82c2EE7509e6d4A |
+| Coin | Address | |-|-|
+| ![thenewboston Logo](https://github.com/thenewboston-developers/Website/raw/development/src/assets/images/thenewboston.png)
+| b6e21072b6ba2eae6f78bc3ade17f6a561fa4582d5494a5120617f2027d38797 |
+| ![Bitcoin Logo](https://github.com/thenewboston-developers/Website/raw/development/src/assets/images/bitcoin.png) |
+3GZYi3w3BXQfyb868K2phHjrS4i8LooaHh |
+| ![Ethereum Logo](https://github.com/thenewboston-developers/Website/raw/development/src/assets/images/ethereum.png) |
+0x0E38e2a838F0B20872E5Ff55c82c2EE7509e6d4A |
 
 ## License
 
